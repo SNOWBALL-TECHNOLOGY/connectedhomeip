@@ -278,7 +278,7 @@ jobs:
                   '
 
             - name: Upload unsigned build artifacts
-              uses: actions/upload-artifact@v4
+              uses: actions/upload-artifact@v7
               if: ${{ !env.ACT }}
               with:
                   name: cc27xx-lighting-unsigned
@@ -386,7 +386,7 @@ jobs:
                       --version "$VERSION"
 
             - name: Upload signed build artifacts
-              uses: actions/upload-artifact@v4
+              uses: actions/upload-artifact@v7
               if: ${{ !env.ACT }}
               with:
                   name: cc27xx-lighting-signed
