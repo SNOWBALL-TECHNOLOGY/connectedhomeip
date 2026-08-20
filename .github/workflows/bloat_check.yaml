@@ -15,8 +15,6 @@
 name: Bloat Check
 on:
     workflow_dispatch:
-    schedule:
-        - cron: "*/5 * * * *"
 
 concurrency:
     group: ${{ github.workflow }}

@@ -14,8 +14,6 @@
 
 name: Recent Fail Summary
 on:
-  schedule:
-    - cron: "10 0 * * *"
   workflow_dispatch:
 
 concurrency:

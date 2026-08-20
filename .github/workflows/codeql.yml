@@ -18,8 +18,6 @@ on:
 #   push:
 #     branches: [ "master", "sve*", "test_event_*", "v1.*" ]
 #   pull_request:
-  schedule:
-    - cron: '0 5 * * *'
 
 jobs:
   analyze:
